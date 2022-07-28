@@ -36,7 +36,7 @@ def clear():
 def Login():
 
     username = input("FoXFoLLoWer\033[2;31;5m( UserName )\033[0;m > \033[96m") # UserName account 
-    password = input("\033[0;mFoXFoLLoWer\033[2;31;5m( UserName )\033[0;m > \033[96m") # PassWord account 
+    password = input("\033[0;mFoXFoLLoWer\033[2;31;5m( PassWord )\033[0;m > \033[96m") # PassWord account 
 
     Session.headers ={
         "User-Agent": choice(UserAgents) # Random user agent
